@@ -39,7 +39,7 @@ export default function Portfolio() {
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
             Designs that{" "}
-            <span className="bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
               speak for themselves
             </span>
           </h2>
@@ -64,14 +64,14 @@ export default function Portfolio() {
                   index % 2 !== 0 ? "lg:order-2" : ""
                 }`}
               >
-                <div className="absolute -inset-4 rounded-3xl bg-gradient-to-r opacity-0 blur-2xl transition-opacity group-hover:opacity-40" />
+                <div className="absolute -inset-4 rounded-3xl bg-linear-to-r opacity-0 blur-2xl transition-opacity group-hover:opacity-40" />
                 <div className="relative overflow-hidden rounded-2xl border border-slate-200/60 shadow-xl transition-all duration-500 group-hover:shadow-2xl">
                   <img
                     src={project.image}
                     alt={project.title}
                     className="h-auto w-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
+                  <div className="absolute inset-0 bg-linear-to-t from-black/30 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
                 </div>
               </div>
 
@@ -81,7 +81,7 @@ export default function Portfolio() {
               >
                 <div className="inline-flex items-center gap-2">
                   <span
-                    className={`h-2 w-2 rounded-full bg-gradient-to-r ${project.color}`}
+                    className={`h-2 w-2 rounded-full bg-linear-to-r ${project.color}`}
                   />
                   <span className="text-sm font-semibold uppercase tracking-widest text-slate-400">
                     {project.category}

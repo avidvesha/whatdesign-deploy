@@ -117,7 +117,7 @@ export default function Process() {
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
             A proven design{" "}
-            <span className="bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
               process
             </span>
           </h2>
@@ -129,11 +129,11 @@ export default function Process() {
 
         {/* Process Steps */}
         <div className="flex flex-wrap justify-center gap-6">
-          {steps.map((step, index) => (
+          {steps.map((step) => (
             <div key={step.number} className="w-full sm:w-[calc(50%-12px)]">
               <div className="group relative flex flex-col rounded-2xl border border-slate-100 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-indigo-100 hover:shadow-xl hover:shadow-indigo-100/40">
                 <div className="mb-4 flex items-center justify-between">
-                  <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-600 to-violet-600 text-white shadow-lg shadow-indigo-200">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-linear-to-br from-indigo-600 to-violet-600 text-white shadow-lg shadow-indigo-200">
                     <span className="text-lg font-bold">{step.number}</span>
                   </div>
                   <div className="inline-flex items-center gap-2 text-indigo-600">

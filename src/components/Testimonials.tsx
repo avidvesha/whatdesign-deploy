@@ -41,7 +41,7 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="relative overflow-hidden bg-gradient-to-br from-indigo-600 via-violet-600 to-purple-700 py-24 lg:py-16"
+      className="relative overflow-hidden bg-linear-to-br from-indigo-600 via-violet-600 to-purple-700 py-24 lg:py-16"
     >
       {/* Background decorations */}
       <div className="pointer-events-none absolute inset-0">

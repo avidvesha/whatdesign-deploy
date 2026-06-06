@@ -1,10 +1,10 @@
 export default function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-50 via-white to-indigo-50 pt-24">
+    <section className="relative min-h-screen overflow-hidden bg-linear-to-br from-slate-50 via-white to-indigo-50 pt-24">
       {/* Background decorations */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -right-40 -top-40 h-[600px] w-[600px] rounded-full bg-gradient-to-br from-indigo-100/60 to-violet-100/40 blur-3xl" />
-        <div className="absolute -bottom-40 -left-40 h-[500px] w-[500px] rounded-full bg-gradient-to-tr from-violet-100/50 to-fuchsia-100/30 blur-3xl" />
+        <div className="absolute -right-40 -top-40 h-[600px] w-[600px] rounded-full bg-linear-to-br from-indigo-100/60 to-violet-100/40 blur-3xl" />
+        <div className="absolute -bottom-40 -left-40 h-[500px] w-[500px] rounded-full bg-linear-to-tr from-violet-100/50 to-fuchsia-100/30 blur-3xl" />
         <div className="absolute left-1/2 top-1/3 h-32 w-32 -translate-x-1/2 rounded-full bg-indigo-200/20 blur-2xl" />
       </div>
 
@@ -22,7 +22,7 @@ export default function Hero() {
 
             <h1 className="text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
               We Design{" "}
-              <span className="bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
                 What You
               </span>{" "}
               Imagine
@@ -37,7 +37,7 @@ export default function Hero() {
             <div className="flex flex-col gap-4 sm:flex-row">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 to-violet-600 px-8 py-4 text-base font-semibold text-white shadow-xl shadow-indigo-200 transition-all hover:shadow-2xl hover:shadow-indigo-300 hover:brightness-110"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-linear-to-r from-indigo-600 to-violet-600 px-8 py-4 text-base font-semibold text-white shadow-xl shadow-indigo-200 transition-all hover:shadow-2xl hover:shadow-indigo-300 hover:brightness-110"
               >
                 Start a Project
                 <svg
@@ -83,7 +83,7 @@ export default function Hero() {
           <div className="relative">
             <div className="relative mx-auto max-w-lg">
               {/* Glow behind */}
-              <div className="absolute -inset-4 rounded-3xl bg-gradient-to-r from-indigo-200/50 to-violet-200/50 blur-2xl" />
+              <div className="absolute -inset-4 rounded-3xl bg-linear-to-r from-indigo-200/50 to-violet-200/50 blur-2xl" />
 
               {/* Main image */}
               <div className="relative overflow-hidden rounded-3xl border border-white/60 shadow-2xl shadow-indigo-200/40">
@@ -93,13 +93,13 @@ export default function Hero() {
                   className="h-auto w-full object-cover"
                 />
                 {/* Overlay gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/20 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-indigo-900/20 to-transparent" />
               </div>
 
               {/* Floating badge */}
               <div className="absolute -bottom-4 -left-4 rounded-2xl border border-white/60 bg-white/90 px-5 py-3 shadow-xl backdrop-blur-sm">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-green-400 to-emerald-500">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-linear-to-br from-green-400 to-emerald-500">
                     <svg
                       className="h-5 w-5 text-white"
                       fill="none"
@@ -128,7 +128,7 @@ export default function Hero() {
               {/* Floating badge right */}
               <div className="absolute -right-4 top-8 rounded-2xl border border-white/60 bg-white/90 px-5 py-3 shadow-xl backdrop-blur-sm">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-violet-500">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-linear-to-br from-indigo-500 to-violet-500">
                     <svg
                       className="h-5 w-5 text-white"
                       fill="none"

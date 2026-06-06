@@ -1,8 +1,8 @@
 export default function CTA() {
   return (
-    <section id="contact" className="relative bg-white py-24 lg:py-32">
+    <section id="contact" className="relative bg-white py-24 lg:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 px-8 py-16 shadow-2xl sm:px-16 sm:py-24">
+        <div className="relative overflow-hidden rounded-3xl bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 px-8 py-16 shadow-2xl sm:px-16 sm:py-24">
           {/* Background decorations */}
           <div className="pointer-events-none absolute inset-0">
             <div className="absolute -right-20 -top-20 h-80 w-80 rounded-full bg-indigo-500/20 blur-3xl" />
@@ -40,7 +40,7 @@ export default function CTA() {
 
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
               Ready to bring your{" "}
-              <span className="bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent">
                 vision to life?
               </span>
             </h2>
@@ -56,7 +56,7 @@ export default function CTA() {
                 href="https://wa.me/6281226785784"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-500 to-violet-500 px-8 py-4 text-base font-semibold text-white shadow-xl shadow-indigo-500/30 transition-all hover:shadow-2xl hover:shadow-indigo-500/40 hover:brightness-110"
+                className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-indigo-500 to-violet-500 px-8 py-4 text-base font-semibold text-white shadow-xl shadow-indigo-500/30 transition-all hover:shadow-2xl hover:shadow-indigo-500/40 hover:brightness-110"
               >
                 <svg
                   className="h-5 w-5"
