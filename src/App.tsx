@@ -8,25 +8,18 @@ import Testimonials from "./components/Testimonials";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
 
-import GoogleAnalytics from "./GoogleAnalytics";
-
 export default function App() {
-  const GA_ID = (import.meta as any).env?.VITE_GA_ID || "G-926BQSVSCN";
-
   return (
-    <>
-      <GoogleAnalytics measurementId={GA_ID} />
-      <div className="min-h-screen bg-white">
-        <Navbar />
-        <Hero />
-        <ClientLogos />
-        <Portfolio />
-        <Process />
-        <Testimonials />
-        <FAQ />
-        <CTA />
-        <Footer />
-      </div>
-    </>
+    <div className="min-h-screen bg-white">
+      <Navbar />
+      <Hero />
+      <ClientLogos />
+      <Portfolio />
+      <Process />
+      <Testimonials />
+      <FAQ />
+      <CTA />
+      <Footer />
+    </div>
   );
 }
