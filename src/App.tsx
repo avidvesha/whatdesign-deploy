@@ -12,7 +12,7 @@ import GoogleAnalytics from "./GoogleAnalytics";
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
-      <GoogleAnalytics measurementId={import.meta.env.VITE_GOOGLE_ANALYTICS_TRACKING_ID || ""} />
+      <GoogleAnalytics measurementId={import.meta.env.VITE_GOOGLE_ANALYTICS_TRACKING_ID || "G-926BQSVSCN"} />
       <Navbar />
       <Hero />
       <ClientLogos />
