@@ -1,3 +1,4 @@
+// @ts-nocheck
 import ReactGA from "react-ga4";
 import generateClientIdGa from "./generate-client-id-ga";
 

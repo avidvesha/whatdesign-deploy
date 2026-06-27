@@ -1,3 +1,4 @@
+// @ts-nocheck
 import ga from "./ga-init";
 
 const loadAnalytics = () => {

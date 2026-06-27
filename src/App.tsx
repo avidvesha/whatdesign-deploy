@@ -7,10 +7,12 @@ import FAQ from "./components/FAQ";
 import Testimonials from "./components/Testimonials";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
+import GoogleAnalytics from "./GoogleAnalytics";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
+      <GoogleAnalytics measurementId={import.meta.env.VITE_GOOGLE_ANALYTICS_TRACKING_ID || ""} />
       <Navbar />
       <Hero />
       <ClientLogos />

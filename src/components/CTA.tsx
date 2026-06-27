@@ -51,7 +51,10 @@ export default function CTA() {
               it happen.
             </p>
 
-            <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <div
+              id="cta"
+              className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
+            >
               <a
                 href="https://wa.me/6281226785784"
                 target="_blank"
