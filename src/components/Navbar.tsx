@@ -33,7 +33,7 @@ export default function Navbar() {
             WD
           </div>
           <span className="text-xl font-bold tracking-tight text-slate-900">
-            What<span className="text-indigo-600">Design</span>
+            What<span className="text-indigo-600">Design 1</span>
           </span>
         </a>
 
